@@ -1,0 +1,5 @@
+flask
+musicbrainzngs
+pandas
+sqlalchemy
+psycopg2-binary
