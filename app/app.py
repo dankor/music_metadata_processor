@@ -1,6 +1,6 @@
 from flask import Flask
-from .utils.musicbrainz import process_artist_data
-from .utils.db import get_recordings_by_artist, get_relevant_recording
+from utils.musicbrainz import process_artist_data
+from utils.db import get_recordings_by_artist, get_relevant_recording
 
 app = Flask(__name__)
 
